@@ -4,8 +4,8 @@
     DIMENSION NNN(1700),I(10),NN(10),FFRE(20),TT(20),III(20),
 1   FR (5000) ,T(5000) NPLLOD
     REAL KFT(8)
-    READ(5,10)N1,N2
-10  FORMAT(2I4)
+    READ(5,10)N,N1,N2
+10  FORMAT(3I4)
     N=4
     LN=1
     KK=0
@@ -34,7 +34,6 @@
 1   FORMAT(1X,20I6)
     LL=0
 33  DO 35 M=1,K
-    DO 35 M=1,K
     I(M)=I(M)+1
     IF(I(M).LE.N) GO TO 20
 35  I(M)=1
