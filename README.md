@@ -1,4 +1,4 @@
-# TAUMUS Workbench
+# TAUmus Workbench
 
 Any [SWHAPPE](https://github.com/Unipisa/SWHAPPE) workbench comes with a few predefined folders, to support the users in the process. 
 
