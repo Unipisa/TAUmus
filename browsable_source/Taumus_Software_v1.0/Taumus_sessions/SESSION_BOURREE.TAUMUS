@@ -1,0 +1,12 @@
+Load   BOURREE
+PLAY
+Goback
+PLAY
+Invert
+PLAY
+Invert
+Modify F|+21
+Chain  BOURREE
+Mix    |3,,,3
+Play
+Save   BOUR1
