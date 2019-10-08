@@ -1,0 +1,43 @@
+   DIMENSION FR(360),FR1(10),N(10)
+   L=0
+   R=2.**(1./36.)
+   FR(360)=32852.
+   DO 10 I=2.360
+
+   K=360+1-I
+10 FR(K) =FR(K+1)/R
+19 L=L+1
+   K=0
+   DO 20 J=L, 360, 36
+   K=K+1
+   FR1(K)=FR(J)
+20 N(K)=J
+   WRITE(8,1)(N(I),FR1(I),I=1,10)
+   FORMAT(9(I4,F8.2),I4,F9.2)
+   IF(L.GE.36) GO TO 25
+   GO TO 19
+25 DO 30 I=1, 360
+   I3=I
+   DO 32 I1=1, 7
+   FRX=FR(I)*FLOAT(I1)
+   WRITE(8,3)FRX
+3  FORMAT(1X,F10.3)
+   DO 34 I2=I3, 360
+   IF(FR(I2)-FRX)34, 50, 54
+54 R1=FR(I2)/FRX
+   R2=FRX/FR(I2-1)
+   IF(R2-R1)56, 50, 50
+50 N(I1)=I2
+   I3=I2
+   FR1(I1)=FR(I2)
+   GO TO 32
+56 N(I1)=I2-1
+   FR1(I1)=FR(I2-1)
+   I3=I2-1
+   GO TO 32
+34 CONTINUE
+32 CONTINUE
+   WRITE(8,2)(N(J),FR1(J),J=1,7)
+ 2 FORMAT(7(I4,'('/,F8.2,')'))
+30 CONTINUE
+   END

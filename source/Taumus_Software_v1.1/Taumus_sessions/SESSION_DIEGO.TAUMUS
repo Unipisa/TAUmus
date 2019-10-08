@@ -1,0 +1,28 @@
+Edit SCALE
+Input: |A1| T7 V12 4C.60 DEFGAB5C *
+FiLe
+Read
+Modify F|0,4,4
+PLAY
+Modify D|-30,,,2
+COMB
+PR63
+Modify D|.4
+PLAY
+Save   DIEGO1
+Modify F|+9,100
+Modify F|+12,200
+Transf A1,B1
+Insert DIEGO1/A
+Save   DIEGO2
+Load   DIEGO2/1,,,4
+Modify D|5
+Modify F|-57,,,2
+Transf A1B1,C12
+Insert DIEGO2/AB
+Dupl   A1B1C12,A2B2C34
+Modify FA2B2C34|+1
+Modify F|-3,150
+Modify F|-3,250
+Save   DIEGO3
+PLAY
