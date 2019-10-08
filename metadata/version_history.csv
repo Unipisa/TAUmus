@@ -1,3 +1,3 @@
-dir,author_name,author_email,date,curator name,curator email,tag,commit message
-v1.0,Pietro Grossi,pietrogrossi@not-available.it,09/16/1972 09:54:00,TAUmus Curation Team,l.bussi1@studenti.unipi.it,*,"Contributors: Leonello Tarabella"
-v1.1,Pietro Grossi,pietrogrossi@not-available.it,10/16/1972 09:54:00,TAUmus Curation Team,l.bussi1@studenti.unipi.it,*,"Contributors: Leonello Tarabella"
+directory name,author name,author email,date,curator name,curator email,release tag,commit message
+v1.0,Pietro Grossi,pietrogrossi@not-available.it,09/16/1972 09:54:00,TAUmus Curation Team,l.bussi1@studenti.unipi.it,*,"|Contributors: Leonello Tarabella"
+v1.1,Pietro Grossi,pietrogrossi@not-available.it,10/16/1972 09:54:00,TAUmus Curation Team,l.bussi1@studenti.unipi.it,*,"|Contributors: Leonello Tarabella"
