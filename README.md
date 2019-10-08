@@ -1,13 +1,20 @@
-# TAUmus Workbench
+# TAUmus
 
-Any [SWHAPPE](https://github.com/Unipisa/SWHAPPE) workbench comes with a few predefined folders, to support the users in the process. 
+### Code controlling TAU2, a music synthetizer of the 70's. 
 
-Folder [raw materials](./raw_materials) is for the original materials, as they have been found or submitted.
+-------------------
+This repository contains a small excerpt of the 
+[TAUmus Development History](https://github.com/Unipisa/TAUmus/tree/SourceCode/). 
 
-Folder [browsable source](./browsable_source) is for a browsable version of the source code. Source files, with the right extension, have to be accessible through the GitHub web interface, e.g., archives should be decompressed, code should be transcribed if provided by images, etc.
+The original finds are stored in the [Depository](https://github.com/Unipisa/TAUmus-Depository) 
+containing the
+[raw materials](https://github.com/Unipisa/TAUmus-Depository/tree/master/raw_materials) and the
+[browsable source](https://github.com/Unipisa/TAUmus-Depository/tree/master/browsable_source).
 
-Folder [source](./source) is for the curated revision of the source code, as a base for the reconstruction of the development history as a git repository, i.e., a folder for each major version of the code.
+[Information on the acquisition of this code](https://github.com/Unipisa/TAUmus-Workbench/tree/master/metadata) can be found in the [TAUmus-Workbench](https://github.com/Unipisa/TAUmus-Workbench) repository.
 
-Folder [metadata](/.metadata) holds various files with meta information (catalogue, actors, journal) used throughout the process. 
+This repository was created with the support of the 
+[Software Heritage Acquisition Process Pisa Enactor](https://github.com/Unipisa/SWHAPPE).
 
-Please refear to the [SWHAPPE](https://github.com/Unipisa/SWHAPPE) guidelines for greater details. 
+
+-------------------
