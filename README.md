@@ -1,6 +1,6 @@
 # TAUmus
 
-### Code controlling TAU2, a music synthetizer of the 70's. 
+### Code controlling TAU2, a music synthesizer of the 70's. 
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Unipisa/TAUmus/)](https://archive.softwareheritage.org/browse/origin/https://github.com/Unipisa/TAUmus/)
 
