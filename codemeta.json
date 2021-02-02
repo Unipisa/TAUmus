@@ -7,7 +7,7 @@
     "codeRepository": "https://github.com/Unipisa/TAUmus",
     "applicationCategory" : "Computer Music",
     "license": "Copyright (C) 1972 Pietro Grossi",
-    "version": "1.1"
+    "version": "1.1",
     "runtimePlatform": "TAU2",
     "developmentStatus": "Unsupported",
     "dateCreated": "1972-09-16",
