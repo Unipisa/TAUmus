@@ -7,37 +7,36 @@
     "codeRepository": "https://github.com/Unipisa/TAUmus",
     "applicationCategory" : "Computer Music",
     "license": "Copyright (C) 1972 Pietro Grossi",
-    "version": "1.1",
-    "keywords" : [
-      "Computer Music", 
-    ],
-    "runtimePlatform" : "",
-    "softwareRequirements" : [""],
+    "version": "1.1"
+    "runtimePlatform" : "TAU2",
     "developmentStatus" : "Unsupported",
     "dateCreated" : "1972-09-16",
     "datePublished" : "1972-10-16",
     "programmingLanguage" : "Fortran II",
-     "isPartOf" : "",
-    "relatedLink" : ["https://www.pietrogrossi.org/"],
-    "referencePublication" : [
-      {
-          "@type": "Report",
-          "idendifier": "https://www.pietrogrossi.org/sites/default/files/IMCE/opuscolo_grossi.pdf",
-          "name": "L'informatica Musicale a Pisa"
-      }
-      ],
+    "relatedLink" : ["https://www.pietrogrossi.org/", "https://publications.cnr.it/doc/439685"],
+    "applicationCategory": "Computer Music",
+    "referencePublication": "https://publications.cnr.it/doc/439685",
+    "keywords": [
+        "Computer Music"
+    ],
     "author": [
-      {
-        "@type": "Person",
-        "givenName": "Pietro",
-        "familyName": "Grossi",
-        "affiliation" : "Istituto di Elaborazione dell'Informazione"
-      },
-      {
-        "@type": "Person",
-        "givenName": "Leonello",
-        "familyName": "Tarabella",
-        "affiliation" : "Istituto di Elaborazione dell'Informazione"
-      }
+        {
+            "@type": "Person",
+            "givenName": "Pietro",
+            "familyName": "Grossi",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Istituto di Elaborazione dell'Informazione"
+            }
+        },
+        {
+            "@type": "Person",
+            "givenName": "Leonello",
+            "familyName": "Tarabella",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Istituto di Elaborazione dell'Informazione"
+            }
+        }
     ]
  }
