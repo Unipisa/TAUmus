@@ -6,8 +6,10 @@
 
 
 -------------------
-This repository contains a small excerpt of the 
-[TAUmus Development History](https://github.com/Unipisa/TAUmus/tree/SourceCode/). 
+TAUmus is the software controlling the real-time computer-music system TAU2-TAUMUS, developed in the 70's of the XX century in Pisa.
+
+This repository contains a small excerpt of the development history of the source code of 
+[TAUmus](https://github.com/Unipisa/TAUmus/tree/SourceCode/). 
 
 The original finds are stored in the [Depository](https://github.com/Unipisa/TAUmus-Depository) 
 containing the
