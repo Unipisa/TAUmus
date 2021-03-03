@@ -6,8 +6,8 @@ This branch stores a small excerpt of the development history of the source code
 
 -------------------
 
-This repository contains the 
-[TAUmus Development History](https://github.com/Unipisa/TAUmus/tree/SourceCode/). 
+This repository contains the development history of the source code of TAUmus 
+[in this branch](https://github.com/Unipisa/TAUmus/tree/SourceCode/). 
 
 The original finds are stored in the [Depository](https://github.com/Unipisa/TAUmus-Depository) containing the [raw materials](https://github.com/Unipisa/TAUmus-Depository/tree/master/raw_materials) and the [browsable source](https://github.com/Unipisa/TAUmus-Depository/tree/master/browsable_source).
 
