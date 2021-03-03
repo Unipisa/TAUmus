@@ -12,3 +12,5 @@ Information on the acquisition of this code are stored as [metadata](https://git
 
 This repository was created with the support of the 
 [Software Heritage Acquisition Process Pisa Enactor](https://github.com/Unipisa/SWHAPPE).
+
+-------------------
