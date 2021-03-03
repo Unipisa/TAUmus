@@ -4,6 +4,8 @@
 
 This branch stores a small excerpt of the development history of the source code: some samples of session scripts that use the TAUmus commands to generate computer music on the audio-terminal TAU2 and a few IBM 360 FORTRAN files from the TAUmus command interpreter itself. 
 
+-------------------
+
 The original finds are stored in the [Depository](https://github.com/Unipisa/TAUmus-Depository) containing the [raw materials](https://github.com/Unipisa/TAUmus-Depository/tree/master/raw_materials) and the [browsable source](https://github.com/Unipisa/TAUmus-Depository/tree/master/browsable_source).
 
 Information on the acquisition of this code are stored as [metadata](https://github.com/Unipisa/TAUmus-Workbench/tree/master/metadata) in the [TAUmus-Workbench](https://github.com/Unipisa/TAUmus-Workbench) repository.
